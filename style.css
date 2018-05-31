@@ -1,0 +1,128 @@
+.cd-fixed-bg {
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cd-fixed-bg.cd-fixed-bg--1 {
+  background-image: url("https://images.unsplash.com/photo-1501504413881-5888acd06076?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=318f0ca9c243da6137a028112b6903ca&auto=format&fit=crop&w=1190&q=80");
+}
+
+.cd-fixed-bg.cd-fixed-bg--2 {
+  background-image: url("https://images.unsplash.com/photo-1502085026219-54ac00e06fd9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5d4742fb163936fc4ec6b1f5d188f408&auto=format&fit=crop&w=1107&q=80");
+}
+
+.cd-scrolling-bg {
+  min-height: 100%;
+}
+
+body *{
+  font-family: 'Lobster', cursive;
+}
+i{
+  margin-right: 8px;
+}
+
+
+.nav-pills{
+  font-size: 2em;
+  opacity: .6;
+}
+
+.container-fluid{
+  margin-bottom: 15%;
+}
+
+.block{
+  background-color: black;
+  opacity: .7;
+  width: 40%;
+  height: 180px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 13px;
+}
+.btnList{
+  margin-top: 10px;
+}
+.btnList a{
+  margin: 5px;
+  font-size: 1.3em;
+
+}
+
+.btnList .btn-default{
+  background-color: black;
+  border-color: black;
+}
+
+.pageTwo{
+  background: url("https://images.unsplash.com/photo-1515362856850-66df805bb388?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=84dd16c14c2fa1143e70f54d64e2933b&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  color: black;
+}
+
+#description{
+  padding-left: 15px;
+  height: 100%;
+  margin: auto;
+  /* background-color: #F4EAD5;
+  opacity: .3; */
+  flex: 2;
+}
+
+.pageTwo h1{
+  padding: 0;
+  margin-top: 100px;
+  font-size: 4.0em;
+}
+p{
+  font-size: 1.4em;
+}
+.me{
+  flex: 1;
+  margin-top: 250px;
+  height: 190px;
+  width: 170px;
+}
+
+.pageThree{
+  padding-top: 5%;
+}
+
+.pageFour{
+  background: url("https://images.unsplash.com/photo-1493146165056-bb822d9422dd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=efde80bcea57a4932aad1b12b8ea9b2d&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  background-color: #F4EAD5;
+  padding: 0 !important;
+}
+.mail{
+  padding-top: 7%;
+  max-width: 65%;
+  margin: auto;
+}
+
+#form_container
+{
+	padding:15px 15px;
+	margin-top:15px;
+	background: rgba(255,255,255,0.75);
+}
+
+.footer{
+  height: 20%;
+  margin-top: 70px;
+  padding-top: 7px;
+  background-color: #F4EAD5;
+  opacity: .9;
+  font-size: 3.0em;
+}
+.footer a{
+  padding: 10px;
+}
