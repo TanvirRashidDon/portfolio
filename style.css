@@ -27,7 +27,6 @@ i{
 
 
 .nav-pills{
-  font-size: 2em;
   opacity: .6;
 }
 
@@ -38,8 +37,7 @@ i{
 .block{
   background-color: black;
   opacity: .7;
-  width: 40%;
-  height: 180px;
+  height: 50%;
   margin: auto;
   padding: 10px;
   border-radius: 13px;
@@ -77,12 +75,9 @@ i{
 
 .pageTwo h1{
   padding: 0;
-  margin-top: 100px;
-  font-size: 4.0em;
+  margin-top: 10%;
 }
-p{
-  font-size: 1.4em;
-}
+
 .me{
   flex: 1;
   margin-top: 250px;
@@ -106,6 +101,7 @@ p{
   padding-top: 7%;
   max-width: 65%;
   margin: auto;
+  height: 79%;
 }
 
 #form_container
@@ -117,7 +113,7 @@ p{
 
 .footer{
   height: 20%;
-  margin-top: 70px;
+  margin-top: 7%;
   padding-top: 7px;
   background-color: #F4EAD5;
   opacity: .9;
@@ -125,4 +121,18 @@ p{
 }
 .footer a{
   padding: 10px;
+}
+@media (min-width: 900px) {
+  .nav-pills{
+    font-size: 2em;
+  }
+  .block{
+    width: 40%;
+  }
+  .pageTwo h1 {
+    font-size: 4.0em;
+  }
+  p{
+    font-size: 1.4em;
+  }
 }
