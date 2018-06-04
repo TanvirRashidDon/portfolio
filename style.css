@@ -89,6 +89,27 @@ i{
   padding-top: 5%;
 }
 
+.carousel-inner {
+  color: black;
+  height: 64vh;
+  max-width: 95%;
+  margin: auto;
+  background-color: #F4EAD5;
+  opacity: .9;
+  border-radius: 13px;
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.carousel-inner .item{
+  /* height: 64vh;
+  width: 75%; */
+  /* margin: auto;
+  background-color: #F4EAD5;
+  opacity: .3;
+  border-radius: 13px; */
+}
+
+
 .pageFour{
   background: url("https://images.unsplash.com/photo-1493146165056-bb822d9422dd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=efde80bcea57a4932aad1b12b8ea9b2d&auto=format&fit=crop&w=1050&q=80");
   background-size: cover;
