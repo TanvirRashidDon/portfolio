@@ -88,11 +88,13 @@ i{
 .pageThree{
   padding-top: 5%;
 }
-
+#myCarousel{
+  margin-top: 3%;
+}
 .carousel-inner {
   color: black;
   height: 64vh;
-  max-width: 95%;
+  max-width: 80%;
   margin: auto;
   background-color: #F4EAD5;
   opacity: .9;
