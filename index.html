@@ -159,7 +159,7 @@
                 <div class="col-md-6 col-md-offset-3" id="form_container">
                     <h2>Contact ME</h2>
                     <p> Please send your message below. I will get back to you at the earliest! </p>
-                    <form role="form" method="post" id="reused_form">
+                    <form action="mailto:tanvirrashiddon@gmail.com" method="post" enctype="text/plain" >
                         <div class="row">
                             <div class="col-sm-12 form-group">
                                 <label for="message"> Message:</label>
@@ -178,7 +178,7 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-12 form-group">
-                                <button type="submit" class="btn btn-lg btn-default pull-right" >Send &rarr;</button>
+                                <a href="#popup1" class="btn btn-lg btn-default pull-right" >Send &rarr;</a>
                             </div>
                         </div>
                     </form>
@@ -200,7 +200,17 @@
       </div>
    </div>
 
+   <div id="popup1" class="overlay">
+    <div class="popup">
+      <h2>Thank you for your message</h2>
+      <a class="close" href="#">&times;</a>
+      <div class="content text-center" >
+        I will get back to you at the earliest!
+      </div>
+    </div>
+  </div>
+
 
   </body>
-
+   
 </html>
